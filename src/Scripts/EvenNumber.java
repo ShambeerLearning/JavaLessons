@@ -8,12 +8,12 @@ public class EvenNumber {
         System.out.print("Введите число: ");
         int input = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Результат: " + Even(input));
+        System.out.println("Результат: " + isEven(input));
         scanner.nextLine();
         scanner.close();
     }
 
-    private static String Even(int number) {
+    private static String isEven(int number) {
         if (number % 2 == 0) {
             return "Четное";
         }
