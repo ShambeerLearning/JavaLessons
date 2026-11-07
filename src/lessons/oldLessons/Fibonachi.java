@@ -1,4 +1,4 @@
-package Scripts;
+package lessons.oldLessons;
 
 public class Fibonachi {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Scripts;
+package lessons.oldLessons;
 
 import java.util.Scanner;
 
